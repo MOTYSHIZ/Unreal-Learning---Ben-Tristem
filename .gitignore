@@ -4,8 +4,10 @@
 */DerivedDataCache
 */Intermediate
 */Saved
-BuildingEscape/Content/StarterContent/
+BuildingEscape/Content/StarterContent/Textures
+BuildingEscape/Content/StarterContent/HDRI
 
 ### VSGenerated Files ###
 */.vs
 *.VC.db
+BuildingEscape/Content/StarterContent/Maps/StarterMap_BuiltData.uasset
