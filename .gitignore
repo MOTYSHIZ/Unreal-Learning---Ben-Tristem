@@ -10,4 +10,6 @@ BuildingEscape/Content/StarterContent/HDRI
 ### VSGenerated Files ###
 */.vs
 *.VC.db
+*.VC.opendb
+*.sln
 BuildingEscape/Content/StarterContent/Maps/StarterMap_BuiltData.uasset
