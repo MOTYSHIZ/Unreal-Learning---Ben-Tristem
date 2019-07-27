@@ -26,9 +26,9 @@ void UGrabber::BeginPlay()
 }
 
 ///Look for attached Physics Handle
-void UGrabber::FindPhysicsHandleComponent() 
+void UGrabber::FindPhysicsHandleComponent()
 {
-	
+
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 	if (PhysicsHandle == nullptr)
 	{
@@ -80,6 +80,11 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	// nullptr protection
+	if (!PhysicsHandle)
+	{
+		return;
+	}
 	// if the physics handle is attached
 	if (PhysicsHandle->GrabbedComponent)
 	{
