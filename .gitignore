@@ -6,10 +6,12 @@
 */Saved
 BuildingEscape/Content/StarterContent/Textures
 BuildingEscape/Content/StarterContent/HDRI
+LetsCreateBP/Content/StarterContent/Textures
+LetsCreateBP/Content/StarterContent/HDRI
 
 ### VSGenerated Files ###
 */.vs
 *.VC.db
 *.VC.opendb
 *.sln
-BuildingEscape/Content/StarterContent/Maps/StarterMap_BuiltData.uasset
+*_BuiltData.uasset
