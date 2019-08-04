@@ -4,10 +4,8 @@
 */DerivedDataCache
 */Intermediate
 */Saved
-BuildingEscape/Content/StarterContent/Textures
-BuildingEscape/Content/StarterContent/HDRI
-LetsCreateBP/Content/StarterContent/Textures
-LetsCreateBP/Content/StarterContent/HDRI
+*/StarterContent/Textures
+*/StarterContent/HDRI
 
 ### VSGenerated Files ###
 */.vs
@@ -15,3 +13,9 @@ LetsCreateBP/Content/StarterContent/HDRI
 *.VC.opendb
 *.sln
 *_BuiltData.uasset
+BattleTank/Content/StarterContent/Textures/
+BuildingEscape/Content/StarterContent/Textures/
+LetsCreateBP/Content/StarterContent/Textures/
+BattleTank/Content/StarterContent/HDRI/
+BuildingEscape/Content/StarterContent/HDRI/
+LetsCreateBP/Content/StarterContent/HDRI/
